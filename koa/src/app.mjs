@@ -1,7 +1,6 @@
 import Koa from "koa";
 import bodyParser from "koa-bodyparser";
 import Router from "@koa/router";
-import { logger } from "./logger-pino.mjs";
 import { pool } from "./storage-mysql.mjs";
 
 export const app = new Koa();
